@@ -2,8 +2,8 @@
 let ary = []
 min = prompt("Введите мин");
 max = prompt("Введите макс");
-min = Number(min);
-max = Number(max);
+min = 7;
+max = 10;
 function write (min,max) {
 
     for (i=min; i<=max; i++){
@@ -12,7 +12,7 @@ function write (min,max) {
 
 }
 
-write();
+write(min,max);
 console.log(ary);
 console.log(ary.length);
 aryclone=JSON.stringify(ary);
