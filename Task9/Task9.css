@@ -1,0 +1,22 @@
+.container-fluid {
+
+    
+
+}
+
+
+
+.col-8 , .col-4 {
+background: #e6dbd6 ;
+border-radius :  5px 5px;
+
+}
+.col-2:hover{
+    background: #e9d1c3 ;
+}
+.col-12{
+    height: 100px;
+    background: #d6d6d6 ;
+    font-size: 25px ;
+    text-align: right ;
+}
