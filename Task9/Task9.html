@@ -16,24 +16,24 @@
         <div class="container-fluid">
             <div class = "row">
         <form class="col-12" name = "form">
-        <input class = "col-12" class="numout" name="textview">
+        <input class = "col-12" value="0" class="numout" id="textview" name="textview">
        </input>
     </form>
-        <Button class = "col-4" value="7" onclick="insert(7)">7</Button>
-        <Button class = "col-4" value="8" onclick="insert(8)">8</Button>
-        <Button class = "col-4" value="9" onclick="insert(9)">9</Button>
-        <Button class = "col-4" value="4" onclick="insert(4)">4</Button>
-        <Button class = "col-4" value="5" onclick="insert(5)"> 5</Button>
-        <Button class = "col-4" value="6" onclick="insert(6)">6</Button>
-        <Button class = "col-4" value="1" onclick="insert(1)">1</Button>
-        <Button class = "col-4" value="2" onclick="insert(2)">2</Button>
-        <Button class = "col-4" value="3" onclick="insert(3)">3</Button>    
-        <Button class = "col-4" value="0" onclick="insert(0)">0</Button>
-        <Button class = "col-4" value="-" onclick="insert('-')">-</Button> 
-        <Button class = "col-4" value="*" onclick="insert('*')">*</Button>  
-        <Button class = "col-4" value="/" onclick="insert('/')">/</Button>
+        <Button  class = "col-4" value="7" onclick="insert('7')">7</Button>
+        <Button class = "col-4" value="8" onclick="insert('8')">8</Button>
+        <Button class = "col-4" value="9" onclick="insert('9')">9</Button>
+        <Button class = "col-4" value="4" onclick="insert('4')">4</Button>
+        <Button class = "col-4" value="5" onclick="insert('5')"> 5</Button>
+        <Button class = "col-4" value="6" onclick="insert('6')">6</Button>
+        <Button class = "col-4" value="1" onclick="insert('1')">1</Button>
+        <Button class = "col-4" value="2" onclick="insert('2')">2</Button>
+        <Button class = "col-4" value="3" onclick="insert('3')">3</Button>    
+        <Button class = "col-4" value="0" onclick="insert('0')">0</Button>
+        <Button class = "col-4" value="-" onclick="insertOperator('-')">-</Button> 
+        <Button class = "col-4" value="*" onclick="insertOperator('*')">*</Button>  
+        <Button class = "col-4" value="/" onclick="insertOperator('/')">/</Button>
         <Button class = "col-4" value="C" onclick="clc()">C</Button>
-        <Button class = "col-4" value="+" onclick="insert('+')">+</Button>
+        <Button class = "col-4" value="+" onclick="insertOperator('+')">+</Button>
         <Button class = "col-8" value="=" onclick="equal()">=</Button>
         </div>
         </div>
